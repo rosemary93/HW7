@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rainbow Page</string>
+    <string name="red_text">RED</string>
+    <string name="blue_text">BLUE</string>
+    <string name="green_text">GREEN</string>
+    <string name="yellow_text">YELLOW</string>
+    <string name="violet_text">VIOLET</string>
+    <string name="indigo_text">INDIGO</string>
+    <string name="orange_text">ORANGE</string>
+</resources>

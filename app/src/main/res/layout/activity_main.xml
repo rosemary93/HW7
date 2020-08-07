@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF0000"
+    android:clipChildren="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        style="@android:style/Widget.Holo.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideInset"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/redTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="@android:dimen/app_icon_size"
+                android:height="90dp"
+                android:background="#FA0909"
+                android:gravity="center"
+                android:text="@string/red_text"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/orangeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="100dp"
+                android:background="#FF8D00"
+                android:gravity="center"
+                android:text="@string/orange_text"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/yellowTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="110dp"
+                android:background="#FFE500"
+                android:gravity="center"
+                android:text="@string/yellow_text"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/greenTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="120dp"
+                android:background="#36FF00"
+                android:gravity="center"
+                android:text="@string/green_text"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/blueTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="130dp"
+                android:background="#0037FF"
+                android:gravity="center"
+                android:text="@string/blue_text"
+                android:textColor="#EC87FD"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/indigoTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="145dp"
+                android:background="#7D0491"
+                android:gravity="center"
+                android:text="@string/indigo_text"
+                android:textColor="#EC87FD"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/violetTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="160dp"
+                android:background="#EC87FD"
+                android:gravity="center"
+                android:text="@string/violet_text"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
